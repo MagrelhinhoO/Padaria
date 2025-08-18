@@ -75,6 +75,15 @@ GET /api/clientes/buscar?nome={nome} - Buscar por nome
 
 ADMINISTRADORES:
 
+Exemplo:
+
+{
+  "nome": "Admin Padaria",
+  "email": "admin@padaria.com",
+  "senha": "senha123",
+  "nivelAcesso": "GERENTE"
+}
+
 
 GET /api/administradores - Listar todos
 
@@ -90,6 +99,13 @@ GET /api/administradores/buscar?nome={nome} - Buscar por nome
 
 PRODUTOS:
 
+Exemplo:
+
+{
+  "nome": "Pão Francês",
+  "preco": 0.50,
+  "quantidadeEstoque": 100
+}
 
 GET /api/produtos - Listar todos
 
@@ -109,6 +125,15 @@ GET /api/produtos/estoque-baixo?quantidade={quantidade} - Buscar produtos com es
 
 VENDAS:
 
+Exemplo:
+
+{
+  "cliente": { "id": 1 },
+  "produtos": [
+    { "id": 1 },
+    { "id": 2 }
+  ]
+}
 
 GET /api/vendas - Listar todos
 
@@ -126,6 +151,13 @@ GET /api/vendas/cliente/{clienteId} - Buscar por cliente
 
 FORNECEDORES:
 
+Exemplo:
+
+{
+  "nome": "FornPadaria LTDA",
+  "cnpj": "12.345.678/0001-99",
+  "telefone": "(11) 3333-3333"
+}
 
 GET /api/fornecedores - Listar todos
 
