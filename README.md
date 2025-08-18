@@ -53,6 +53,13 @@ Você pode testar a API usando o Postman com os seguintes endpoints:
 
 CLIENTES:
 
+Exemplo:
+
+{
+  "nome": "João Silva",
+  "cpf": "123.456.789-00",
+  "telefone": "(11) 99999-9999"
+}
 
 GET /api/clientes - Listar todos
 
