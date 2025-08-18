@@ -51,7 +51,7 @@ Gerenciamento de usuários admin
 
 Você pode testar a API usando o Postman com os seguintes endpoints:
 
-Clientes
+CLIENTES:
 GET /api/clientes - Listar todos
 
 GET /api/clientes/{id} - Buscar por ID
@@ -64,7 +64,7 @@ DELETE /api/clientes/{id} - Deletar
 
 GET /api/clientes/buscar?nome={nome} - Buscar por nome
 
-Administradores
+ADMINISTRADORES:
 GET /api/administradores - Listar todos
 
 GET /api/administradores/{id} - Buscar por ID
@@ -77,7 +77,7 @@ DELETE /api/administradores/{id} - Deletar
 
 GET /api/administradores/buscar?nome={nome} - Buscar por nome
 
-Produtos
+PRODUTOS:
 GET /api/produtos - Listar todos
 
 GET /api/produtos/{id} - Buscar por ID
@@ -94,7 +94,7 @@ GET /api/produtos/preco-maximo?preco={preco} - Buscar por preço máximo
 
 GET /api/produtos/estoque-baixo?quantidade={quantidade} - Buscar produtos com estoque baixo
 
-Vendas
+VENDAS:
 GET /api/vendas - Listar todos
 
 GET /api/vendas/{id} - Buscar por ID
@@ -109,7 +109,7 @@ GET /api/vendas/periodo?inicio={inicio}&fim={fim} - Buscar por período
 
 GET /api/vendas/cliente/{clienteId} - Buscar por cliente
 
-Fornecedores
+FORNECEDORES:
 GET /api/fornecedores - Listar todos
 
 GET /api/fornecedores/{id} - Buscar por ID
